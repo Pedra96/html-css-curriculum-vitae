@@ -8,17 +8,48 @@ header{
     
 }
 
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+
+h1:hover{
+    text-decoration: underline;
+    }
+
 h2{
     color: #ffbb33;
 }
+
 .mytitle{
     font-style:bold;
 }
+
 h3{
     font-style: italic;
 }
+
 div{
     margin-left: 20px;
     margin-right: 20px;
-    border-bottom: 1px solid #ffbb33;
+    
+}
+
+div:hover{
+    border: 1px solid #ffbb33;
+    background-color: skyblue;
+}
+
+.myhover:hover{
+    font-style: italic;
+    font-weight: bold;
+}
+
+div p:hover{
+    text-decoration: underline;
+
+}
+
+.myborder{
+    border-bottom:1px solid #ffbb33;
 }
