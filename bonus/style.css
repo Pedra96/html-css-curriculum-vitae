@@ -13,10 +13,17 @@ footer p{
     font-size: 12px;
 }
 
+h1:hover{
+    text-decoration: underline;
+    }
+
 h2{
     color: #ffbb33;
 }
 
+.mytitle{
+    font-style:bold;
+}
 
 h3{
     font-style: italic;
@@ -27,6 +34,22 @@ div{
     margin-right: 200px;
     
 }
+
+div:hover{
+    border: 1px solid #ffbb33;
+    background-color: skyblue;
+}
+
+.myhover:hover{
+    font-style: italic;
+    font-weight: bold;
+}
+
+div p:hover{
+    text-decoration: underline;
+
+}
+
 .myborder{
     border-bottom:1px solid #ffbb33;
 }
